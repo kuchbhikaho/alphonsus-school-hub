@@ -79,7 +79,7 @@ $result = $conn->query($sql);
                 </tr>
             </thead>
             <tbody>
-                <?php if ($result->num_rows > 0): ?>
+                <?php if ($result && $result->num_rows > 0): ?>
                     <?php while($row = $result->fetch_assoc()): ?>
                         <tr>
                             <td><?php echo htmlspecialchars($row['first_name'] . ' ' . $row['last_name']); ?></td>
