@@ -44,7 +44,7 @@ $result = $conn->query($sql);
             <h1>St Alphonsus Primary School</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="index.php">Dashboard</a></li>
                     <li><a href="pupils.php">Pupils</a></li>
                     <li><a href="teachers.php">Teachers</a></li>
                     <li><a href="classes.php">Classes</a></li>
